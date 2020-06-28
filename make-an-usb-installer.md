@@ -31,8 +31,8 @@ dd if=~/arch.iso of=/dev/sdb bs=1M status=progress
 3. `mkdir -p /mnt/{iso,usb}`
 4. `mount /dev/sdb1 /mnt/usb`
 5. `mount -o loop ~/arch.iso /mnt/iso`
-6. `cp -a /mnt/iso/. /mnt/usb`，这一步之后，多数 linux distros 已经 OK 了，Arch 还要下面的步骤
-7.  `sync`
+6. `cp -a /mnt/iso/. /mnt/usb`
+7.  `sync`, 这一步之后，多数 linux distros 已经 OK 了，Arch 还要下面的步骤
 8. `blkid -o value -s UUID /dev/sdb1`, 得到分区的 UUID
 9. `vim /mnt/usb/loader/entries/archiso-x86_64.conf`
 10. 修改最后一行, `archisolabel=...` 改为 `archisodevice=/dev/disk/by-uuid/$UUID`, 将分区实际 UUID 替换掉 $UUID
