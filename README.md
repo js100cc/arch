@@ -8,4 +8,4 @@
 
 建议主板 UEFI + 硬盘 GPT 分区模式。
 
-1. [usb installer](./make-an-usb-installer.md)
+1. [usb installer](./install/make-an-usb-installer.md)
