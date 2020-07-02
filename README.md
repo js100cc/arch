@@ -11,3 +11,7 @@
 1. [usb installer](./install/make-an-usb-installer.md)
 2. [motherboard](./install/motherboard.md)
 3. [base install](./install/base-install.md)
+
+## How-to
+
+1. [keymap](./how-to/keymap.md)
