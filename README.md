@@ -15,3 +15,4 @@
 ## How-to
 
 1. [keymap](./how-to/keymap.md)
+2. [wifi](./how-to/wifi.md)
